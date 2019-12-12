@@ -9,3 +9,4 @@ jobs:
     - uses: ./action-a
       env:
         MY_NAME: "Mona"
+        SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
